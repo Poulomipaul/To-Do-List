@@ -1,0 +1,50 @@
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #555;
+    font-size: 16px;
+    width: 50%;
+}
+
+#b1 {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #555;
+    color: #fff;
+}
+#b1:hover{
+    background-color: #333;
+}
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+
+}
+li span{
+    font-size: 16px;
+}
+li button{
+    padding: 5px 10px;
+    background-color: #ff5555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+li button:hover{
+    background-color: #ff3333;
+    
+}
